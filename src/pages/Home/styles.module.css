@@ -4,7 +4,7 @@
     font-size: 54.478px;
     font-style: normal;
     font-weight: 900;
-    line-height: 80.536px; /* 147.833% */
+    line-height: 60.536px; /* 147.833% */
 }
 
 .secondRow{
@@ -25,16 +25,16 @@
 .descriptionText{
     color: #FFF;
     font-family: Montserrat;
-    font-size: 30.765px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 45.482px; /* 147.833% */
+    line-height: 24px; /* 147.833% */
     width: 787px;
 }
 
 .content{
     display: flex;
     flex-direction: column;
-    gap: 64px;
+    gap: 32px;
     margin: 8px 170px 145px 170px;
 }
