@@ -6,7 +6,7 @@ export function Quote({ children, description, citation, strongCitation }) {
       <p className={styles.description}
         style={strongCitation && {
           fontWeight: 900,
-          fontSize: 35
+          fontSize: 30
         }}
       >
         { description }
