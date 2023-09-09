@@ -17,6 +17,48 @@
   margin: 50px;
   margin-top: 0;
 
-  height: 80vh;
   width: 30vw;
+
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.15);
+
+  padding: 30px 50px 50px 50px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.titleForm {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+
+  margin-bottom: 40px;
+}
+
+.button {
+  width: 100%;
+
+  border-radius: 25px;
+  background: #FFF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 30px;
+
+  height: 40px;
+
+  color: #1E1E1E;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  border: 1px solid red;
 }
