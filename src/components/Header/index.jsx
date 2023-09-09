@@ -4,7 +4,7 @@ import { DotsThree } from "phosphor-react"
 export const Header = () => {
     return(
         <header>
-            <DotsThree size={32} />
+            <DotsThree size={32} color="#ffffffbf" />
             <div className={styles.headerAction}>
                 <div className= {styles.quotes}>Quotes</div>
 

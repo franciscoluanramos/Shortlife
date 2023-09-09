@@ -1,4 +1,5 @@
 import { Background } from '../../components/Background';
+import { Header } from '../../components/Header';
 import { Quote } from '../../components/Quote';
 import { InputForm } from './InputForm';
 
@@ -7,6 +8,8 @@ import styles from './styles.module.css';
 export function Register() {
   return(
     <Background>
+      
+      <Header/>
       <div className={styles.contentContainer}>
         <div className={styles.messageContainer}>
           <Quote 
