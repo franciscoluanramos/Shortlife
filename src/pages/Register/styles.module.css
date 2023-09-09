@@ -1,7 +1,7 @@
 
 .content {
   border: 0px solid blue;
-  margin: 0 150px;
+  margin: 0 70px;
 }
 
 .contentContainer {
@@ -10,7 +10,7 @@
   width: 100%;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .messageContainer {
