@@ -1,0 +1,33 @@
+
+.contentContainer {
+  border: 1px solid red;
+  width: 40vw;
+  
+  color: #fff;
+
+  padding: 50px;
+}
+
+.description {
+  font-family: Montserrat;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+.quoteCitation {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+
+  border: 1px solid blue;
+  text-align: right;
+
+  position: relative;
+  top: -36px;
+  padding-right: 50px;
+}
