@@ -1,0 +1,20 @@
+*{
+    font-family: Montserrat;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 15.507px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 6.461px; /* 41.667% */
+}
+.shareButton{
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    width: 200.867px;
+    height: 62.152px;
+    flex-shrink: 0;
+    border-radius: 29.076px;
+    background: rgba(255, 255, 255, 0.22);
+}

@@ -1,0 +1,28 @@
+*{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 6.461px; /* 41.667% */
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
+    padding: 0;
+}
+.headerAction{
+    display: flex;
+    gap: 81px;
+    align-items: center;
+    margin: 0;
+}
+.quotes{
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Montserrat;
+    font-size: 15.507px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6.461px; /* 41.667% */
+}
