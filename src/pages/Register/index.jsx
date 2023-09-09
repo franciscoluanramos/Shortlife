@@ -1,5 +1,6 @@
 import { Background } from '../../components/Background';
 import { Quote } from '../../components/Quote';
+import { InputForm } from './InputForm';
 
 import styles from './styles.module.css';
 
@@ -22,6 +23,20 @@ export function Register() {
           className={styles.form} 
           action=""
         >
+          <h3 className={styles.titleForm}>
+            Greetings to you!
+          </h3>
+
+          <InputForm title={"How old are you?"}/>
+          <InputForm title={"What's your sex of birth?"}/>
+          <InputForm title={"Which country do you live in?"}/>
+
+          <a
+            className={styles.button} 
+            href="#"
+          >
+            START
+          </a>
 
         </form>
       </div>
