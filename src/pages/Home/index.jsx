@@ -19,6 +19,7 @@ export function Home() {
                         </div> */}
                     </div>
                     <div className={styles.descriptionText}>“Amor fati é uma expressão latina que significa 'amor ao destino', 'amor ao fado'. No estoicismo e na filosofia de Friedrich Nietzsche, significa ou trata-se de aceitação integral da vida e do destino humano mesmo em seus aspectos mais cruéis e dolorosos...”</div>
+                    
                     <ShareButton/>
                     
                     <div className= {styles.skullList}>
