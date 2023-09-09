@@ -1,0 +1,22 @@
+
+.contentContainer {
+  border: 1px solid green;
+  
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.messageContainer {
+  border: 1px solid yellow;
+}
+
+.form {
+  border: 1px solid blue;
+  margin: 50px;
+  margin-top: 0;
+
+  height: 80vh;
+  width: 30vw;
+}
