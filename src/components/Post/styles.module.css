@@ -1,0 +1,19 @@
+#post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 48px;
+    border-radius: 8px;
+    background-color: #ffffff26;
+    max-width: 600px;
+}
+
+#post div {
+    display: flex;
+    align-items: center;
+
+}
+
+#post + #post {
+    margin-top: 32px;
+}
