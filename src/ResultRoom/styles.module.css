@@ -1,0 +1,38 @@
+#resultRoom {
+    display: flex;
+    max-height: 100vh;
+    color: white;
+    margin-top: 24px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 500;
+}
+
+#resultRoom aside {
+    flex: 5.5;
+    margin-left: 5rem;
+    font-size: 300px;
+}
+
+#resultRoom div {
+    flex: 4.5;
+}
+
+.text1 {
+    font-size: 50px;
+}
+
+#text2 {
+    line-height: 250px;
+    font-weight: 800;
+}
+
+#text3 {
+    font-size: 32px;
+    margin-top: 84px;
+}
+
+#postsbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
