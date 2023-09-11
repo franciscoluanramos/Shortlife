@@ -6,7 +6,7 @@
 }
 
 .contentContainer {
-  backdrop-filter: brightness(0.4);
+  backdrop-filter: brightness(0.53);
   overflow-x: hidden;
   width: 100vw;
   height: 100vh;
