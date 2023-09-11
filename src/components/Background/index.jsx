@@ -1,5 +1,4 @@
 import styles from './styles.module.css';
-
 import backgroundImage from '../../assets/background.png';
 
 export function Background({ children }) {

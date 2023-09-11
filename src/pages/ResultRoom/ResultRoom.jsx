@@ -1,7 +1,8 @@
 import styles from "./styles.module.css"
-import { Background } from "../components/Background";
-import { Header } from "../components/Header/index"
-import { Post } from "../components/Post/Post";
+import { Background } from "../../components/Background";
+import { Header } from "../../components/Header/index"
+import { Post } from "../../components/Post/Post";
+import { Skull } from "../../components/Skull";
 
 export function ResultRoom() {
     function calculateLifePercentageLeft() {

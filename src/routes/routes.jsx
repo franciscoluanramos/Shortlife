@@ -1,7 +1,7 @@
 import { Route, Routes as Switch } from "react-router-dom";
 import { Home } from "../pages/Home";
 import { Register } from "../pages/Register";
-import { ResultRoom } from "../ResultRoom/ResultRoom";
+import { ResultRoom } from "../pages/ResultRoom/ResultRoom";
 
 export const Routes = () => {
     return(
