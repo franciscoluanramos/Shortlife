@@ -1,0 +1,28 @@
+#contentContainer {
+    display: flex;
+    flex: 1;
+    max-height: 100vh;
+}
+
+#quotes {
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - 7rem);
+    overflow-y: scroll;
+    align-items: start;
+    padding: 0 6rem;
+    
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+  
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+  
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+}

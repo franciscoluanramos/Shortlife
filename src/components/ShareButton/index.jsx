@@ -6,7 +6,7 @@ export const ShareButton = () => {
         <>
             <button className={styles.shareButton}>
 
-                <Export size={32} color="#ffffffbf" />
+                <Export size={"2rem"} color="#ffffffbf" />
 
                 <div style={{ color: "#ffffffbf" }}>
                     S H A R E

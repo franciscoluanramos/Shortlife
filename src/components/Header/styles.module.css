@@ -1,8 +1,8 @@
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 24px;
+    margin: 1.5rem;
     padding: 0;
 }
 .headerAction{
