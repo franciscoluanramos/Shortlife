@@ -1,3 +1,22 @@
+
+/* CSS */
+@keyframes moveUp {
+    0% {
+        /* Posição inicial */
+        transform: translateY(0); 
+    }
+    100% {
+        transform: translateY(-2000px); 
+        /* Posição final */
+    }
+}
+
+/* Aplicando a animação ao POST */
+#post {
+    animation: moveUp 6s linear infinite; 
+    /* Nome da animação, duração, tipo de temporização e repetição */
+}
+
 #post {
     display: flex;
     flex-direction: column;
@@ -8,7 +27,7 @@
     max-width: 37rem;
     font-family: Montserrat, sans-serif;
     font-weight: 500;
-    color: white; 
+    color: white;
 }
 
 #post div {
