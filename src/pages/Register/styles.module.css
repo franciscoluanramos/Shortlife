@@ -1,11 +1,16 @@
 
+.content {
+  border: 0px solid blue;
+  margin: 0 70px;
+}
+
 .contentContainer {
   border: 0px solid green;
   
   width: 100%;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .messageContainer {
@@ -16,6 +21,7 @@
   border: 0px solid blue;
   margin: 50px;
   margin-top: 0;
+  margin-bottom: 0;
 
   width: 30vw;
 
@@ -61,4 +67,11 @@
   text-decoration: none;
 
   border: 0px solid red;
+}
+
+.skullList{
+  border: 0px solid red;
+  display: flex;
+
+  margin-left: 20px;
 }

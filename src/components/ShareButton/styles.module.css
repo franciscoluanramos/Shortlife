@@ -1,11 +1,11 @@
 .shareButton{
-    gap: 16px;
+    gap: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 0;
-    width: 200.867px;
-    height: 62.152px;
+    width: 12.90rem;
+    height: 4rem;
     flex-shrink: 0;
     border-radius: 29.076px;
     background: rgba(255, 255, 255, 0.22);

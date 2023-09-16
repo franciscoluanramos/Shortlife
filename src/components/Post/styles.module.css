@@ -1,0 +1,21 @@
+#post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 3rem;
+    border-radius: 20px;
+    background-color: #ffffff26;
+    max-width: 37rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    color: white; 
+}
+
+#post div {
+    display: flex;
+    align-items: center;
+}
+
+#post + #post {
+    margin-top: 2rem;
+}

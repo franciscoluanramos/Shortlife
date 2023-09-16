@@ -1,0 +1,48 @@
+#all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: gray;
+}
+  
+#contentBox {
+    display: flex;
+    flex: 1;
+    /* border: 1px solid red; */
+}
+
+#text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 3rem;
+    margin: auto 100px;
+    border-radius: 20px;
+    background-color: #ffffff26;
+    font-family: "MontSerrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 28.1px;
+    position: relative;
+    bottom: 5%;
+}
+
+#logo {
+    display: flex;
+    flex: 1.5;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 5%;
+}
