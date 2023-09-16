@@ -6,8 +6,7 @@ export const Header = () => {
         <header>
             <DotsThree size={32} color="#ffffffbf" />
             <div className={styles.headerAction}>
-                <div className= {styles.quotes}>Quotes</div>
-
+                <a className= {styles.quotes} href="">Quotes</a>
                 <ShareButton/>
             </div>
         </header>

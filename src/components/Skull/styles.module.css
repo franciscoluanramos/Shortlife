@@ -1,4 +1,11 @@
 .skull{
-    transform: rotate(15deg);
-    transform: scale(0.7);
+    border: 1px solid red;
+    /* transform: rotate(15deg);
+    transform: scale(0.7); */
+
+    width: 80px;
 }
+
+.skull + .skull {
+    margin-left: 32px;
+} /*aqui você separa as caveiras a distância que você quiser
