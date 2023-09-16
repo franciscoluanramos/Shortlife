@@ -1,43 +1,46 @@
 .title{
     color: #FFF;
     font-family: Montserrat;
-    font-size: 54.478px;
+    font-size: 3.48rem;
     font-style: normal;
     font-weight: 900;
-    line-height: 60.536px; /* 147.833% */
+    line-height: 3.8rem; /* 147.833% */
 }
 
 .secondRow{
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .author{
     color: #FFF;
     font-family: Montserrat;
-    font-size: 18.015px;
+    font-size: 1.1rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 23.631px; /* 131.176% */
+    line-height: 1.4rem; /* 131.176% */
 }
 
 .descriptionText{
     color: #FFF;
-    font-family: Montserrat;
-    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.03rem;
     font-style: normal;
     font-weight: 300;
-    line-height: 24px; /* 147.833% */
-    width: 787px;
+    line-height: 1.5rem; /* 147.833% */
+    width: 50.7rem;
 }
 
 .content{
     display: flex;
     flex-direction: column;
-    gap: 32px;
-    margin: 8px 170px 145px 170px;
+    gap: 2rem;
+    margin: 0.5rem 11rem 9.3rem 11rem;
+    border: 0px solid red;
+    flex: 1;
 }
+
 .skullList{
     display: flex;
 }

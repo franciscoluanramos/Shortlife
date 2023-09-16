@@ -19,3 +19,12 @@ header {
     font-weight: 700;
     line-height: 6.461px; /* 41.667% */
 }
+
+a:link {
+    text-decoration: none;
+    color: gray;
+}
+
+a:visited {
+    color: gray;
+}

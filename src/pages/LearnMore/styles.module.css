@@ -17,7 +17,6 @@ a:visited {
 #contentBox {
     display: flex;
     flex: 1;
-    /* border: 1px solid red; */
 }
 
 #text {
@@ -26,15 +25,16 @@ a:visited {
     flex-direction: column;
     justify-content: center;
     padding: 2rem 3rem;
-    margin: auto 100px;
-    border-radius: 20px;
+    margin: auto 6.45rem;
+    border-radius: 1.3rem;
     background-color: #ffffff26;
     font-family: "MontSerrat", sans-serif;
     font-size: 1rem;
     font-weight: 600;
-    line-height: 28.1px;
+    line-height: 1.8rem;
     position: relative;
     bottom: 5%;
+    text-align: justify;
 }
 
 #logo {
@@ -42,7 +42,30 @@ a:visited {
     flex: 1.5;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid red; */
     position: relative;
     bottom: 5%;
+    /* border: 1px solid red; */
+    
 }
+
+;
+
+#logo img:hover {
+    animation: rotacao-infinita 30s linear infinite;
+    /* transform: scale(1.2); */
+    transition: transform 1s ease;
+    height: 35rem;
+}
+
+#logo img {
+    height: 35rem;
+}
+
+@keyframes rotacao-infinita {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

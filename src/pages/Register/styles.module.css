@@ -1,12 +1,11 @@
-
 .content {
   border: 0px solid blue;
-  margin: 0 70px;
+  margin: 0 4.3rem;
+  font-size: 1rem;
 }
 
 .contentContainer {
   border: 0px solid green;
-  
   width: 100%;
 
   display: flex;
@@ -19,16 +18,16 @@
 
 .form {
   border: 0px solid blue;
-  margin: 50px;
+  margin: 3rem;
   margin-top: 0;
   margin-bottom: 0;
 
   width: 30vw;
 
-  border-radius: 20px;
+  border-radius: 1.25rem;
   background-color: rgba(255, 255, 255, 0.15);
 
-  padding: 30px 50px 50px 50px;
+  padding: 1.8rem 3rem 3rem 3rem;
 
   display: flex;
   flex-direction: column;
@@ -37,30 +36,30 @@
 .titleForm {
   color: #FFF;
   font-family: Montserrat;
-  font-size: 27px;
+  font-size: 1.7rem;
   font-style: normal;
   font-weight: 700;
 
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .button {
   width: 100%;
 
-  border-radius: 25px;
+  border-radius: 1.5rem;
   background: #FFF;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  margin-top: 30px;
+  margin-top: 1.8rem;
 
-  height: 40px;
+  height: 2.5rem;
 
   color: #1E1E1E;
   font-family: Montserrat;
-  font-size: 15px;
+  font-size: 0.9rem;
   font-style: normal;
   font-weight: 600;
 
@@ -73,5 +72,5 @@
   border: 0px solid red;
   display: flex;
 
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
