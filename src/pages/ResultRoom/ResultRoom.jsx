@@ -1,8 +1,8 @@
 import styles from "./styles.module.css"
-import { Background } from "../../components/Background";
+import { Background } from "../../components/Background/index";
 import { Header } from "../../components/Header/index"
 import { Post } from "../../components/Post/Post";
-import { Skull } from "../../components/Skull";
+import { Skull } from "../../components/Skull/index";
 
 export function ResultRoom() {
     function calculateLifePercentageLeft() {
@@ -26,7 +26,7 @@ export function ResultRoom() {
                         OF YOUR LIFE
                     </div>
                     <div id={styles.text3}>
-                        Statistically speaking, you'll live to be about 77 years old. You will probably die in the year 2077, but you have a 0.1% chance of dying next year.
+                        Statistically speaking, you'll live to be about <strong>77 years old</strong>. You will probably die in the <strong>year 2077</strong>, but you have a <strong>0.1%</strong> chance of dying next year.
                     </div>
                 </aside>
                 <div id={styles.postsbox}>
